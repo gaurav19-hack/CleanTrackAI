@@ -1,27 +1,45 @@
 function Stats() {
+  const stats = [
+
+    {
+      icon: "📢",
+      value: "0",
+      label: "Issues Reported"
+    },
+    {
+      icon: "✅",
+      value: "0",
+      label: "Resolved Cases"
+    },
+    {
+      icon: "👥",
+      value: "0",
+      label: "Active Citizens"
+    },
+    {
+      icon: "⚡",
+      value: "0",
+      label: "Average Response"
+    }
+  ];
   return (
+  <>
+    <div className="stats-header">
+      <h2>Platform Statistics</h2>
+      <p>Live community impact and engagement metrics</p>
+    </div>
+
     <section className="stats">
-      <div className="stat-card">
-        <h2>0</h2>
-        <p>Issues Reported</p>
-      </div>
-
-      <div className="stat-card">
-        <h2>0</h2>
-        <p>Resolved Cases</p>
-      </div>
-
-      <div className="stat-card">
-        <h2>0</h2>
-        <p>Active Citizens</p>
-      </div>
-
-      <div className="stat-card">
-        <h2>0</h2>
-        <p>Average Response</p>
-      </div>
+      {stats.map((item, index) => (
+        <div className="stat-card" key={index}>
+          <div className="stat-icon">{item.icon}</div>
+          <h2>{item.value}</h2>
+          <p>{item.label}</p>
+        </div>
+      ))}
     </section>
-  );
+  </>
+);
 }
 
 export default Stats;

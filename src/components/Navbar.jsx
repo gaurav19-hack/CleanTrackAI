@@ -12,14 +12,16 @@ function Navbar() {
       </div>
 
       <ul className="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#how-it-works">How It Works</a></li>
-        <li><a href="#dashboard">Dashboard</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/features">Features</a></li>
+        <li><a href="/how-it-works">How It Works</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
 
-      <button className="login-btn">Login</button>
+      <a href="/login" className="login-btn">
+        Login
+      </a>
     </nav>
   );
 }

@@ -32,10 +32,11 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <button className="report-btn">
+          <a href="#report">
+            <button className="primary-btn">
             Report an Issue
           </button>
-
+         </a>
           <button className="track-btn">
             Track Issue
           </button>
