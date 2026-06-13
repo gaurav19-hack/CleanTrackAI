@@ -6,8 +6,12 @@ import HowItWorks from "./Pages/HowItWorks";
 import Dashboard from "./Pages/Dashboard";
 import About from "./Pages/About";
 import Login from "./Pages/Login";
-
+import ReportIssue from "./Pages/ReportIssue";
 import "./App.css";
+import TrackIssue from "./Pages/TrackIssue";
+import OfficerPanel from "./Pages/OfficerPanel";
+import Heatmap from "./Pages/Heatmap";
+import SocialImpact from "./Pages/SocialImpact";
 
 function App() {
   return (
@@ -26,7 +30,11 @@ function App() {
         <Route path="/about" element={<About />} />
 
         <Route path="/login" element={<Login />} />
-
+        <Route path="/report" element={<ReportIssue />} />
+        <Route path="/track" element={<TrackIssue />} />
+        <Route path="/officer" element={<OfficerPanel />} />
+        <Route path="/heatmap" element={<Heatmap />} />
+        <Route path="/socialimpact" element={<SocialImpact/>} />
       </Routes>
 
     </BrowserRouter>

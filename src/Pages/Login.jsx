@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-
+import { useNavigate } from "react-router-dom";
 function Login() {
   return (
     <>
@@ -7,33 +7,44 @@ function Login() {
 
       <section className="login-page">
 
-       
-       <div className="login-header">
-  <div className="login-icon">🛡️</div>
-  <h2>Citizen Portal</h2>
-  <p>
-    Secure access to report issues, track complaints and
-    contribute towards a cleaner Bharat.
-  </p>
-</div>
+        <div className="login-container">
 
-        <form className="login-form">
+          <div className="login-left">
+            <div className="login-icon">🛡️</div>
 
-          <input
-            type="email"
-            placeholder="Email Address"
-          />
+            <h2>Citizen Portal </h2>
+            <h2>Login</h2>
 
-          <input
-            type="password"
-            placeholder="Password"
-          />
+            <p>
+              Secure access to report issues, track complaints
+              and contribute towards a cleaner Bharat.
+            </p>
 
-          <button>
-            Login
-          </button>
+            
+          </div>
 
-        </form>
+          <form className="login-form">
+
+            
+
+            <input
+              type="email"
+              placeholder="Email Address"
+            />
+
+            <input
+              type="password"
+              placeholder="Password"
+            />
+            <button type="New User"> New User? Create account</button>
+            <button type="submit">
+              Login
+            </button>
+
+          </form>
+
+        </div>
+
       </section>
     </>
   );

@@ -1,4 +1,5 @@
 import government from "../assets/government.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -12,16 +13,21 @@ function Navbar() {
       </div>
 
       <ul className="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/features">Features</a></li>
-        <li><a href="/how-it-works">How It Works</a></li>
-        <li><a href="/dashboard">Dashboard</a></li>
-        <li><a href="/about">About</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/features">Features</Link></li>
+        <li><Link to="/how-it-works">How It Works</Link></li>
+        <li><Link to="/dashboard">Dashboard</Link></li>
+        <li><Link to="/report">Report Issue</Link></li>
+        <li><Link to="/track">Track Issue</Link></li>
+        <li><Link to="/officer">Officer Panel</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li> <Link to="/heatmap">Heatmap</Link> </li>
+        <li> <Link to="/socialimpact">SocialImpact</Link></li>
       </ul>
 
-      <a href="/login" className="login-btn">
+      <Link to="/login" className="login-btn">
         Login
-      </a>
+      </Link>
     </nav>
   );
 }

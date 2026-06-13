@@ -1,0 +1,95 @@
+{
+  "complaints": [
+    {
+      "id": "CTA-1781305384296",
+      "name": "Gaurav Gupta",
+      "location": "26.513440306332477, 80.47529019474658",
+      "category": "Garbage",
+      "description": "Garbaged dumbed on road side",
+      "aiVerification": {
+        "confidence": 94,
+        "issue": "Garbage",
+        "verified": true
+      },
+      "image": "1781305382512-rubbish-7421380_1280.jpg",
+      "status": "Resolved",
+      "createdAt": "2026-06-12T23:03:04.297Z",
+      "proofImage": "1781309246332-proof.png"
+    },
+    {
+      "id": "CTA-1781305385088",
+      "name": "Gaurav Gupta",
+      "location": "26.513440306332477, 80.47529019474658",
+      "category": "Garbage",
+      "description": "Garbaged dumbed on road side",
+      "aiVerification": {
+        "confidence": 94,
+        "issue": "Garbage",
+        "verified": true
+      },
+      "image": "1781305379707-rubbish-7421380_1280.jpg",
+      "status": "Resolved",
+      "createdAt": "2026-06-12T23:03:05.088Z"
+    },
+    {
+      "id": "CTA-1781305385827",
+      "name": "Gaurav Gupta",
+      "location": "26.513440306332477, 80.47529019474658",
+      "category": "Garbage",
+      "description": "Garbaged dumbed on road side",
+      "aiVerification": {
+        "confidence": 94,
+        "issue": "Garbage",
+        "verified": true
+      },
+      "image": "1781305385134-rubbish-7421380_1280.jpg",
+      "status": "Resolved",
+      "createdAt": "2026-06-12T23:03:05.827Z"
+    },
+    {
+      "id": "CTA-1781305385853",
+      "name": "Gaurav Gupta",
+      "location": "26.513440306332477, 80.47529019474658",
+      "category": "Garbage",
+      "description": "Garbaged dumbed on road side",
+      "aiVerification": {
+        "confidence": 94,
+        "issue": "Garbage",
+        "verified": true
+      },
+      "image": "1781305385209-rubbish-7421380_1280.jpg",
+      "status": "Resolved",
+      "createdAt": "2026-06-12T23:03:05.853Z"
+    },
+    {
+      "id": "CTA-1781305385922",
+      "name": "Gaurav Gupta",
+      "location": "26.513440306332477, 80.47529019474658",
+      "category": "Garbage",
+      "description": "Garbaged dumbed on road side",
+      "aiVerification": {
+        "confidence": 94,
+        "issue": "Garbage",
+        "verified": true
+      },
+      "image": "1781305385279-rubbish-7421380_1280.jpg",
+      "status": "Pending",
+      "createdAt": "2026-06-12T23:03:05.922Z"
+    },
+    {
+      "id": "CTA-1781305385963",
+      "name": "Gaurav Gupta",
+      "location": "26.513440306332477, 80.47529019474658",
+      "category": "Garbage",
+      "description": "Garbaged dumbed on road side",
+      "aiVerification": {
+        "confidence": 94,
+        "issue": "Garbage",
+        "verified": true
+      },
+      "image": "1781305385317-rubbish-7421380_1280.jpg",
+      "status": "Resolved",
+      "createdAt": "2026-06-12T23:03:05.963Z"
+    }
+  ]
+}

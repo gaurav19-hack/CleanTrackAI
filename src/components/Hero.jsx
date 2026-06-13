@@ -1,19 +1,20 @@
 import indiaGate from "../assets/india-gate.jpg";
-import government from "../assets/government.png";
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <section
       className="hero"
       style={{
-  backgroundImage: `
-    linear-gradient(
-      rgba(0,40,20,.7),
-      rgba(0,0,0,.7)
-    ),
-    url(${indiaGate})
-  `
-}}
->
+        backgroundImage: `
+          linear-gradient(
+            rgba(0,40,20,.7),
+            rgba(0,0,0,.7)
+          ),
+          url(${indiaGate})
+        `,
+      }}
+    >
       <div className="hero-content">
 
         <span className="badge">
@@ -32,14 +33,21 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <a href="#report">
-            <button className="primary-btn">
+
+          <Link
+            to="/report"
+            className="primary-btn"
+          >
             Report an Issue
-          </button>
-         </a>
-          <button className="track-btn">
+          </Link>
+
+          <Link
+            to="/track"
+            className="track-btn"
+          >
             Track Issue
-          </button>
+          </Link>
+
         </div>
 
       </div>
