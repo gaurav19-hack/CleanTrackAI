@@ -47,12 +47,12 @@ CleanTrackAI is an AI-powered civic issue reporting platform that enables citize
 
 ## Future Enhancements
 
-* Real AI image classification
+
 * Mobile application
 * Government API integration
 * Automated officer assignment
 * Notification system
-* Advanced analytics dashboard
+
 
 ## Vision
 
