@@ -45,8 +45,8 @@ app.post(
     try {
 
       const aiResult = await axios.get(
-        "http://localhost:8000/verify"
-      );
+  "http://127.0.0.1:8000/verify"
+);
 
       console.log("AI RESULT:");
       console.log(aiResult.data);
@@ -56,27 +56,33 @@ app.post(
       );
 
       const complaint = {
-        id: `CTA-${Date.now()}`,
+  id: `CTA-${Date.now()}`,
 
-        name: req.body.name,
-        location: req.body.location,
-        category: req.body.category,
-        description: req.body.description,
+  name: req.body.name,
+  location: req.body.location,
+  category: req.body.category,
+  description: req.body.description,
 
-        aiVerification: aiResult.data,
+  aiVerification: aiResult.data,
 
-        image: req.file
-          ? req.file.filename
-          : null,
+  image: req.file
+    ? req.file.filename
+    : null,
 
-        status: "Pending",
+  status: "Pending",
 
-        proofImage: null,
+  assignedTo: "Ward Supervisor",
 
-        createdAt:
-          new Date().toISOString(),
-      };
+  escalationLevel: 1,
 
+  deadline:
+    Date.now() + (2 * 60 * 1000),
+
+  proofImage: null,
+
+  createdAt:
+    new Date().toISOString(),
+};
       data.complaints.push(
         complaint
       );

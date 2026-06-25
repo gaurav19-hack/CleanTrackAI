@@ -1,95 +1,42 @@
 {
   "complaints": [
     {
-      "id": "CTA-1781305384296",
-      "name": "Gaurav Gupta",
-      "location": "26.513440306332477, 80.47529019474658",
+      "id": "CTA-1781328115724",
+      "name": "Deepak Sahu",
+      "location": "26.513453481512855, 80.47531591867917",
       "category": "Garbage",
-      "description": "Garbaged dumbed on road side",
+      "description": "Garbage dumped road side",
       "aiVerification": {
         "confidence": 94,
         "issue": "Garbage",
         "verified": true
       },
-      "image": "1781305382512-rubbish-7421380_1280.jpg",
+      "image": "1781328115650-rubbish-7421380_1280.jpg",
       "status": "Resolved",
-      "createdAt": "2026-06-12T23:03:04.297Z",
-      "proofImage": "1781309246332-proof.png"
+      "assignedTo": "Ward Supervisor",
+      "escalationLevel": 1,
+      "deadline": 1781335315724,
+      "proofImage": "1781335703113-proof.png",
+      "createdAt": "2026-06-13T05:21:55.724Z"
     },
     {
-      "id": "CTA-1781305385088",
-      "name": "Gaurav Gupta",
-      "location": "26.513440306332477, 80.47529019474658",
-      "category": "Garbage",
-      "description": "Garbaged dumbed on road side",
+      "id": "CTA-1781335660898",
+      "name": "Deepak Sahu",
+      "location": "26.513461732358763, 80.47530009308352",
+      "category": "Drainage blockage",
+      "description": "Drainage  blockage near GGES chauraha ",
       "aiVerification": {
         "confidence": 94,
         "issue": "Garbage",
         "verified": true
       },
-      "image": "1781305379707-rubbish-7421380_1280.jpg",
-      "status": "Resolved",
-      "createdAt": "2026-06-12T23:03:05.088Z"
-    },
-    {
-      "id": "CTA-1781305385827",
-      "name": "Gaurav Gupta",
-      "location": "26.513440306332477, 80.47529019474658",
-      "category": "Garbage",
-      "description": "Garbaged dumbed on road side",
-      "aiVerification": {
-        "confidence": 94,
-        "issue": "Garbage",
-        "verified": true
-      },
-      "image": "1781305385134-rubbish-7421380_1280.jpg",
-      "status": "Resolved",
-      "createdAt": "2026-06-12T23:03:05.827Z"
-    },
-    {
-      "id": "CTA-1781305385853",
-      "name": "Gaurav Gupta",
-      "location": "26.513440306332477, 80.47529019474658",
-      "category": "Garbage",
-      "description": "Garbaged dumbed on road side",
-      "aiVerification": {
-        "confidence": 94,
-        "issue": "Garbage",
-        "verified": true
-      },
-      "image": "1781305385209-rubbish-7421380_1280.jpg",
-      "status": "Resolved",
-      "createdAt": "2026-06-12T23:03:05.853Z"
-    },
-    {
-      "id": "CTA-1781305385922",
-      "name": "Gaurav Gupta",
-      "location": "26.513440306332477, 80.47529019474658",
-      "category": "Garbage",
-      "description": "Garbaged dumbed on road side",
-      "aiVerification": {
-        "confidence": 94,
-        "issue": "Garbage",
-        "verified": true
-      },
-      "image": "1781305385279-rubbish-7421380_1280.jpg",
+      "image": "1781335660498-dustbin.jpg",
       "status": "Pending",
-      "createdAt": "2026-06-12T23:03:05.922Z"
-    },
-    {
-      "id": "CTA-1781305385963",
-      "name": "Gaurav Gupta",
-      "location": "26.513440306332477, 80.47529019474658",
-      "category": "Garbage",
-      "description": "Garbaged dumbed on road side",
-      "aiVerification": {
-        "confidence": 94,
-        "issue": "Garbage",
-        "verified": true
-      },
-      "image": "1781305385317-rubbish-7421380_1280.jpg",
-      "status": "Resolved",
-      "createdAt": "2026-06-12T23:03:05.963Z"
+      "assignedTo": "Ward Supervisor",
+      "escalationLevel": 1,
+      "deadline": 1781335780898,
+      "proofImage": null,
+      "createdAt": "2026-06-13T07:27:40.898Z"
     }
   ]
 }

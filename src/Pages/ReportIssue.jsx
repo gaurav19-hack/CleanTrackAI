@@ -12,6 +12,7 @@ function ReportIssue() {
 
   const [image, setImage] = useState(null);
   const [preview, setPreview] = useState("");
+  const [submittedComplaint, setSubmittedComplaint] = useState(null);
 
   const handleChange = (e) => {
     setFormData({
@@ -65,9 +66,12 @@ function ReportIssue() {
 
   console.log(response.data);
 
+  setSubmittedComplaint(response.data);
+
   alert(
     `Complaint Submitted\nID: ${response.data.id}`
   );
+
 } catch (error) {
   console.log(error);
   console.log(error.response);
@@ -75,11 +79,12 @@ function ReportIssue() {
   alert(
     JSON.stringify(error.response?.data)
   );
+
+  return;
 }
 
-    alert(
-      `Complaint Submitted\nID: ${response.data.id}`
-    );
+
+   
 
     setFormData({
       name: "",
@@ -172,6 +177,40 @@ function ReportIssue() {
           <button type="submit">
             Submit Complaint
           </button>
+          {submittedComplaint && (
+  <button
+    type="button"
+    style={{
+      marginTop: "15px",
+      background: "#000",
+      color: "white",
+      padding: "12px 20px",
+      border: "none",
+      borderRadius: "10px",
+      cursor: "pointer"
+    }}
+    onClick={() => {
+      const tweet = encodeURIComponent(
+        `🚨 Civic Issue Reported
+
+Complaint ID: ${submittedComplaint.id}
+Category: ${submittedComplaint.category}
+Location: ${submittedComplaint.location}
+
+Reported via CleanTrackAI
+
+#CleanTrackAI #SwachhBharat`
+      );
+
+      window.open(
+        `https://x.com/intent/tweet?text=${tweet}`,
+        "_blank"
+      );
+    }}
+  >
+    Share on X 🐦
+  </button>
+)}
         </form>
       </section>
     </>
